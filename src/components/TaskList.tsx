@@ -8,7 +8,7 @@ const TaskList: React.FC = () => {
   const tasks = useSelector((state: RootState) => state.tasks);
 
   return (
-    <ul className="mt-10 max-w-md mx-auto">
+    <ul className="mt-10 max-w-md mx-auto sm:max-w-xl lg:max-w-2xl">
       {/* if tasks are available then map over them */}
       {tasks.length > 0 ? (
         tasks.map((task) => (

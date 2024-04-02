@@ -13,7 +13,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ id, text, completed }) => {
   const dispatch = useDispatch();
 
   return (
-    <li className="flex items-center bg-gray-100 mb-5 p-3 rounded-md shadow-md hover:shadow-lg">
+    <li className="flex items-center bg-gray-100 mb-5 p-3 rounded-md shadow-md hover:shadow-lg px-5">
       <input
         type="checkbox"
         checked={completed}
