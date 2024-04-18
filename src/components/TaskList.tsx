@@ -21,7 +21,7 @@ const TaskList: React.FC = () => {
         ))
       ) : (
         //  else show message in <h1> tag
-        <h1 className="text-center text-2xl font-semibold">
+        <h1 className="text-center text-2xl font-semibold text-white">
           No tasks found! Add some
         </h1>
       )}
